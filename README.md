@@ -4,8 +4,11 @@ A website login Brute force Script
 
 You need to install requirements by using
 
-pip install -r requirements.txt
+<code>pip install -r requirements.txt</code>
 
 Run it by using
 
-python webbrute.py 
+<code>python webbrute.py</code> 
+
+
+Subscribe to the youtube chanell : <a href="https://www.youtube.com/channel/UCz_wC5AjM-8Dni7fGvqXzkw?view_as=subscriber">Cre8tor Academy<a>
