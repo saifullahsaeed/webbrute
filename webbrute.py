@@ -10,12 +10,12 @@ ascii_banner = pyfiglet.figlet_format("WEB BRUTE")
 print("\033[0;31;40m" +ascii_banner)
 print("\033[1;33;40m \t|+++++++:Welcome To bruteforce tool:+++++++|\n")
 print("\033[1;33;40m\t \t|+++++++:Cre8tor Academy:+++++++|\n")
-url = str(input("\033[1;34;40m Enter Url Of Login Page: \033[1;32;40m"))
+url = str(raw_input("\033[1;34;40m Enter Url Of Login Page: \033[1;32;40m"))
 if len(url) > 0:
     br.open(url)
-    input_fst = input(
+    input_fst = raw_input(
         "\033[1;34;40m Please Enter Username Input Tag Name Default (username):\033[1;32;40m ")
-    input_scnd = input(
+    input_scnd = raw_input(
         " \033[1;34;40m Please Enter Password Input Tag Name Default (password):\033[1;32;40m ")
     if len(input_fst) <= 0:
         print("\033[1;33;40m---------------------------------------------")
@@ -28,10 +28,10 @@ if len(url) > 0:
         print("---------------------------------------------\033[0;37;40m ")
         exit()
     else:
-        test = input("You Know Username (y/n)")
+        test = raw_input("You Know Username (y/n)")
         if test == "y":
-            username = input("\033[1;34;40m Enter username: \033[1;32;40m")
-            passlist = input("\033[1;34;40m Enter Password List Path Default (pass.txt Hit Enter) :\033[1;32;40m")
+            username = raw_input("\033[1;34;40m Enter username: \033[1;32;40m")
+            passlist = raw_input("\033[1;34;40m Enter Password List Path Default (pass.txt Hit Enter) :\033[1;32;40m")
             if not passlist:
                 combos = open("pass.txt", "r")
                 data = combos.read().splitlines()
@@ -53,8 +53,8 @@ if len(url) > 0:
                     break
                     exit()
         else:
-            user_file = input("\033[1;34;40m Enter the path of Username File Default (users.txt):\033[1;32;40m ")
-            passlist = input("\033[1;34;40m Enter Password List Path Default (pass.txt Hit Enter) :\033[1;32;40m")
+            user_file = raw_input("\033[1;34;40m Enter the path of Username File Default (users.txt):\033[1;32;40m ")
+            passlist = raw_input("\033[1;34;40m Enter Password List Path Default (pass.txt Hit Enter) :\033[1;32;40m")
             if not passlist:
                 combos = open("pass.txt", "r")
                 data = combos.read().splitlines()
