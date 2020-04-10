@@ -10,7 +10,7 @@ ascii_banner = pyfiglet.figlet_format("WEB BRUTE")
 print("\033[0;31;40m" +ascii_banner)
 print("\033[1;33;40m \t|+++++++:Welcome To bruteforce tool:+++++++|\n")
 print("\033[1;33;40m\t \t|+++++++:Cre8tor Academy:+++++++|\n")
-url = input("\033[1;34;40m Enter Url Of Login Page: \033[1;32;40m")
+url = str(input("\033[1;34;40m Enter Url Of Login Page: \033[1;32;40m"))
 if len(url) > 0:
     br.open(url)
     input_fst = input(
