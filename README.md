@@ -12,4 +12,4 @@ Run it by using
 You will See The Screen <br/>
 <img src="ss.png" ><br/>
 Watch Video For Detaild Information
-Subscribe to the youtube chanell : <a href="https://www.youtube.com/channel/UCz_wC5AjM-8Dni7fGvqXzkw?view_as=subscriber">Cre8tor Academy<a>
+Subscribe to the youtube channel : <a href="https://www.youtube.com/channel/UCz_wC5AjM-8Dni7fGvqXzkw?view_as=subscriber">Cre8tor Academy<a>
