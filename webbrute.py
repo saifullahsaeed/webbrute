@@ -14,9 +14,9 @@ url = str(raw_input("\033[1;34;40m Enter Url Of Login Page: \033[1;32;40m"))
 if len(url) > 0:
     br.open(url)
     input_fst = raw_input(
-        "\033[1;34;40m Please Enter Username Input Tag Name Default (username):\033[1;32;40m ")
+        "\033[1;34;40m Please Enter Username Input Tag Name :\033[1;32;40m ")
     input_scnd = raw_input(
-        " \033[1;34;40m Please Enter Password Input Tag Name Default (password):\033[1;32;40m ")
+        " \033[1;34;40m Please Enter Password Input Tag Name :\033[1;32;40m ")
     if len(input_fst) <= 0:
         print("\033[1;33;40m---------------------------------------------")
         print("|\t \033[1;31;40m Invalid Username Feild \033[1;33;40m  \t \t|")
